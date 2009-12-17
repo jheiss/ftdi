@@ -15,8 +15,10 @@ require 'rake/gempackagetask'
 spec = Gem::Specification.new do |s|
   s.name                  = 'ftdi'
   s.summary               = 'Ruby bindings for libftdi'
-  s.description           = File.read(File.join(File.dirname(__FILE__), 'README'))
-  s.version               = '0.0.1'
+  # Gemcutter prefers description over summary and the README looks like crap
+  # in gemcutter's formatting.
+  #s.description           = File.read(File.join(File.dirname(__FILE__), 'README'))
+  s.version               = '0.0.2'
   s.requirements          = ['libftdi']
   s.author                = 'Jason Heiss'
   s.email                 = 'jheiss@aput.net'
