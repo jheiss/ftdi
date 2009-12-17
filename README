@@ -1,2 +1,6 @@
 Ruby bindings for libftdi:  http://www.intra2net.com/en/developer/libftdi/
+Also requires swig:  http://www.swig.org/
+
+The gem includes example scripts.  Where they end up depends on your
+system, but can be found with:  gem contents ftdi | grep examples
 
