@@ -23,7 +23,7 @@ spec = Gem::Specification.new do |s|
   s.homepage              = 'http://github.com/jheiss/ftdi'
   s.platform              = Gem::Platform::RUBY
   s.required_ruby_version = '>=1.8'
-  s.files                 = FileList['README', 'LICENSE', 'ext/**', 'test/**']
+  s.files                 = FileList['README', 'LICENSE', 'examples/**', 'ext/**', 'test/**']
   s.test_files            = FileList['test/test*.rb']
   s.extensions            = ["ext/extconf.rb"]
 end
